@@ -10,3 +10,4 @@ C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Release\TimedPower.cspro
 C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Release\en\TimedPower.resources.dll
 C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Release\TimedPower.exe
 C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Release\TimedPower.pdb
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Release\TimedPower.csprojAssemblyReference.cache
