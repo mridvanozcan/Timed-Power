@@ -1,0 +1,12 @@
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\bin\Debug\TimedPower.exe.config
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\bin\Debug\TimedPower.exe
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\bin\Debug\TimedPower.pdb
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\bin\Debug\en\TimedPower.resources.dll
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.Form1.resources
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.Properties.Resources.resources
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.Form1.en.resources
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.csproj.GenerateResource.cache
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.csproj.CoreCompileInputs.cache
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\en\TimedPower.resources.dll
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.exe
+C:\Users\ozcan\Desktop\Power\Timed-Power\TimedPower\obj\Debug\TimedPower.pdb

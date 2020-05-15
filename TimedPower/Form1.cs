@@ -23,17 +23,22 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TimedPower.Properties;
 
 namespace TimedPower
 {
+
+       
     public partial class Form1 : Form
     {
+
         int time = 0;
         int timed;
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -48,11 +53,12 @@ namespace TimedPower
            
         }
 
+        // Start Button
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                timer1.Enabled = true;
+                timer1.Start();
                 label3.Text = "Time Seted: " + textBox1.Text;
                 timed = Convert.ToInt32(textBox1.Text);
             }
@@ -60,14 +66,34 @@ namespace TimedPower
             {
                 MessageBox.Show("Problem Occur! \nConnect to Developer ");
             }
-
+            button1.Enabled = false;
+            button2.Enabled = true;
+            comboBox1.Enabled = false;
+            textBox1.Enabled = false;
+            label4.Enabled = true;
+            counter.Enabled = true;
         }
-        private void button2_Click(object sender, EventArgs e) => timer1.Enabled = false;
 
+        //Stop Button
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            time = 0;
+            counter.Text = "0";
+            label3.Text = "Program Stoped!";
+            button2.Enabled = false;
+            button1.Enabled = true;
+            textBox1.Enabled = true;
+            label4.Enabled = false;
+            counter.Enabled = false;
+            comboBox1.Enabled = true;
+        }
+
+        //Timer and actions
         private void timer1_Tick(object sender, EventArgs e)
         {
             time++;
-            ltime.Text = time.ToString();
+            counter.Text = Convert.ToString(time);
             try
             {
                 if (time == timed)
@@ -98,8 +124,30 @@ namespace TimedPower
             {
                 MessageBox.Show("Problem Occur! \nConnect to Developer ");
             }
-           
 
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
+        }
+
+        private void TrayMinimizerForm_Resize(object sender, EventArgs e)
+        {
+            notifyIcon1.BalloonTipTitle = "Timed Power";
+            notifyIcon1.BalloonTipText = "Program minimized.";
+
+            if (FormWindowState.Minimized == this.WindowState)
+            {
+                notifyIcon1.Visible = true;
+                notifyIcon1.ShowBalloonTip(500);
+                this.Hide();
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIcon1.Visible = false;
+            }
         }
     }
 }

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedPower", "TimedPower\TimedPower.csproj", "{12B47861-AF30-443F-9097-8BD072B1B9AA}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TimedPowerSetup", "TimedPowerSetup\TimedPowerSetup.vdproj", "{1BBCBA34-B1AA-4E7F-A273-1FFE0BC6B3D2}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{C8D9DAB1-1659-4219-9622-89CE148719BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,12 +13,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12B47861-AF30-443F-9097-8BD072B1B9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12B47861-AF30-443F-9097-8BD072B1B9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B47861-AF30-443F-9097-8BD072B1B9AA}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{12B47861-AF30-443F-9097-8BD072B1B9AA}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{12B47861-AF30-443F-9097-8BD072B1B9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12B47861-AF30-443F-9097-8BD072B1B9AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BBCBA34-B1AA-4E7F-A273-1FFE0BC6B3D2}.Debug|Any CPU.ActiveCfg = Debug
-		{1BBCBA34-B1AA-4E7F-A273-1FFE0BC6B3D2}.Release|Any CPU.ActiveCfg = Release
+		{C8D9DAB1-1659-4219-9622-89CE148719BB}.Debug|Any CPU.ActiveCfg = Release
+		{C8D9DAB1-1659-4219-9622-89CE148719BB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
